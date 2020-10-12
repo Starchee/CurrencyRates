@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryLightColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/convert_dialog_tv_rub"
+            style="@style/TextStyle"
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:text="RUB" />
+        <EditText
+            android:id="@+id/convert_dialog_et_amount"
+            style="@style/EditTextStyle"
+            android:layout_width="0dp"
+            android:layout_weight="80" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/convert_dialog_tv_charCode"
+            style="@style/TextStyle"
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            tools:text="charCode" />
+        <TextView
+            android:id="@+id/convert_dialog_tv_result"
+            style="@style/TextStyle"
+            android:layout_width="0dp"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:textStyle="bold"
+            tools:text="value" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/convert_dialog_btn_cancel"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:text="@string/btn_cancel" />
+
+        <Button
+            android:id="@+id/convert_dialog_btn_convert"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:text="@string/btn_convert" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Currency Rates</string>
+    <string name="converter_enter_hint">Enter amount</string>
+    <string name="btn_cancel">cancel</string>
+    <string name="btn_convert">convert</string>
+    <string name="nominal">Nominal: %1$d</string>
+
+    <string name="error_internet_connection">Please check internet connection and try again</string>
+
+</resources>
